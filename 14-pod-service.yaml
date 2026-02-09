@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod #Pod must be starts with Capital "P" not p
 metadata:
-  name: roboshop
+  name: service-demo
   labels:
     project: roboshop
     component: frontend
