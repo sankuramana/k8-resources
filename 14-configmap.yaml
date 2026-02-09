@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: configMap
+kind: ConfigMap
 metadata:
-  name: pod-configMap
+  name: pod-configmap
 data:
-  cource: "DevSecOps with siva"
-  Duration: "120 hrs"
+  course: "DevSecOps with Siva"
+  duration: "120 hrs"
