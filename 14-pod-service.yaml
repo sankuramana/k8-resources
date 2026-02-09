@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod #Pod must be starts with Capital "P" not p
+metadata:
+  name: roboshop
+  labels:
+    project: roboshop
+    component: frontend
+    environment: dev
+spec:
+  containers:
+  - name: nginx #when it is list have to stert with -
+    image: nginx
