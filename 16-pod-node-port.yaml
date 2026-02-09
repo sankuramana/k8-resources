@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod #capital P
+metadata:
+  name: service-np-demo
+  labels:   #lables must be inside metadta
+    project: roboshop
+    component: frontend
+    environment: dev
+    purpose: node-port
+spec:
+  containers:
+  - name: nginx
+    image: nginx

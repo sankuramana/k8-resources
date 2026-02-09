@@ -6,8 +6,9 @@ spec:
   selector:
     project: roboshop
     component: frontend
-    environment: dev
+    environment: dev     #selectors for configuring endpoints in services to pod to pod
   ports:
     - protocol: TCP
       port: 80        # Service port exposed outside the cluster
       targetPort: 80  # Container port the traffic is forwarded to
+      

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod #Pod must be starts with Capital "P" not p
 metadata:
   name: service-demo
-  labels:
+  labels: #lables must be inside metadat
     project: roboshop
     component: frontend
     environment: dev
