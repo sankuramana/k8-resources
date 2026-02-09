@@ -1,0 +1,17 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: env-demo
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:                         # Environment variables for the container
+    - name: course               # Environment variable name
+      value: kubernetes          # Environment variable value
+    - name: trainer              # Another environment variable
+      value: sivakumar           # Value assigned
+      # Environment variables can be accessed inside the container at runtime
+#Example
+#echo $course
+#echo $trainer

@@ -9,3 +9,13 @@ spec:
   containers:
   - name: nginx
     image: nginx
+
+    #extra features than lables
+    #same like albles
+    #in lables we have limit of key values character leanth
+    #for annaotations has no limit or no limit
+    #for annotataions we can have spoecial character
+    #example:
+    #annotations:
+    # jenkins.url: "http://jenkins.joindevops.com/build/job/5"
+    # imageregistry: "https://hub.docker.com/"

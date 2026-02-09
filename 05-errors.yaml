@@ -1,11 +1,20 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: error-test
+  name: error-test #this is going to be pod name 
 spec:
-  containers:
+  containers: #by defaullt kubernates fetch/pull images from "dcokerhub"
   # - name: nginx
-  
-  #   image: ngindfdfadsfsaf ok
+  #   image: ngindfdfadsfsaf ok #this container is not available in hub
   - name: almalinux
     image: almalinux:9
+
+  #types of errors
+  #two types of errors
+  #1
+  #2
+  
+    #commands
+    #kubectl apply -f 05-error-test(filename)
+    # kubectl delete pod errorr-test(podname)
+    #kubectl get pods

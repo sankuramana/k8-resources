@@ -12,3 +12,20 @@ spec:
     image: nginx                # Docker image that container uses (from DockerHub)
     ports:
     - containerPort: 80         # Port exposed by the container (nginx default port)
+
+
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: nginx
+#   namespace: ecommerse
+#   labels:
+#     name: nginx
+#     project: ecommerse
+# spec:
+#   containers:
+#   - name: nginx
+#     image: nginx
+#     ports:
+#     - containerPort: 80
+
