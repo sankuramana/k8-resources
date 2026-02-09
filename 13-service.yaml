@@ -3,18 +3,11 @@ kind: Service
 metadata:
   name: nginx
 spec:
-    selector: 
+  selector:
     project: roboshop
     component: frontend
     environment: dev
-
-ports:
+  ports:
     - protocol: TCP
-      port: 80 #service port
-      targetPort: 80 #conatiner port
-
-
-
-
-
-#lables are used to slect resources in kubernates
+      port: 80        # Service port exposed outside the cluster
+      targetPort: 80  # Container port the traffic is forwarded to
