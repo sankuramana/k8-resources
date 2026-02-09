@@ -1,0 +1,7 @@
+apiVerson: v1
+kind: configMap
+metadata:
+  name: pod-configMap
+data:
+  cource: "DevSecOps with siva"
+  Duration: "120 hrs"
