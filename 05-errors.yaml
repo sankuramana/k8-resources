@@ -4,10 +4,10 @@ metadata:
   name: error-test #this is going to be pod name 
 spec:
   containers: #by defaullt kubernates fetch/pull images from "dcokerhub"
-  # - name: nginx
-  #   image: ngindfdfadsfsaf ok #this container is not available in hub
-  - name: almalinux
-    image: almalinux:9
+  - name: nginx
+    image: ngindfdfadsfsaf  #this container is not available in hub
+  #  - name: almalinux
+  #    image: almalinux:9
 
   #types of errors
   #two types of errors
