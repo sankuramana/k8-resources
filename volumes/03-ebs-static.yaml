@@ -25,7 +25,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 15Gi #have to request less tan or equal to volume available
+      storage: 3Gi #have to request less tan or equal to volume available
 # ---
 # apiVersion: v1
 # kind: Pod
