@@ -3,6 +3,7 @@ apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
   name: roboshop-ebs
-reclaimPolicy: Retain
+reclaimPolicy: Retain #keeps EBS volume in AWS when pod deletd 
+#if you put dlete it dletes the EBS volume 
 provisioner: ebs.csi.aws.com
 volumeBindingMode: WaitForFirstConsumer

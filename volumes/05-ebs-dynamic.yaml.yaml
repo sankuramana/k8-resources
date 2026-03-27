@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: roboshop-ebs
+  storageClassName: roboshop-ebs #
   resources:
     requests:
       storage: 4Gi
