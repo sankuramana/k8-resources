@@ -13,7 +13,8 @@ spec:
     matchLabels:
       purpose: rs-demo
       project: roboshop
-  # pod definition
+  # pod definition(means for whom you are adding replicas?below)
+  #You are adding "replicas" for the Pod defined inside template section.
   template:
     metadata:
       labels:

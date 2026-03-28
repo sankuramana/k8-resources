@@ -5,3 +5,7 @@ metadata:
   labels:                          # Labels to categorize or identify this namespace
     environment: development       # Label: environment type (dev, test, prod)
     project: roboshop              # Label: project name for grouping resources
+
+#sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+#sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+#kubens roboshop

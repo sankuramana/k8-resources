@@ -10,5 +10,13 @@ spec:
   ports:
     - protocol: TCP
       port: 80        # Service port exposed outside the cluster
-      targetPort: 80  # Container port the traffic is forwarded to
+      targetPort: 80  # Container port like cataloue 1  ,2 or 3 #here conatiner is nginx(80/443)
       
+#serive means
+#kind is "service"
+#under "spec"
+#selecter and Ports 
+#under ports(list)
+#- protocol:TCP
+#port:80 "service prot"
+#targetport:80 "conatiner-port"
