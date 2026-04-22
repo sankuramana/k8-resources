@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.25
+        image: nginx:latest
 ---
 apiVersion: v1
 kind: Service
