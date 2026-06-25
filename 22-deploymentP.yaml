@@ -29,7 +29,7 @@ metadata:
 
 spec:
   selector:
-    app: nginx
+    app: ngin
 
   ports:
   - port: 80
